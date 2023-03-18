@@ -18,7 +18,7 @@ function snasm(){
 		then
 		echo -e "\e[1;32m Comprobando la existencia de Nasm...  OK.\e[0m"
 	else
-		echo -e "\e[1;31m ERROR - El compilador 'Nasm' no está instalado, '¿pacman -S nasm?'.\e[0m"
+		echo -e "\e[1;31m ERROR - El compilador 'Nasm' no está instalado, '¿sudo pacman -S nasm?'.\e[0m"
 		sleep 6
 		exit 1;
 	fi
