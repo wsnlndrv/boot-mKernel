@@ -1,5 +1,5 @@
 #!/bin/bash
-# Ayudante para la compilación del archivo boot.asm y kernel.asm, especialmente programado para vagos, =D
+# Ayudante para la compilación del archivo boot.asm y kernel.asm
 
 ARCHIVO1=boot.asm
 ARCHIVO2=kernel.asm
@@ -9,7 +9,7 @@ ARCHIVO5=kernel.bin
 
 function titulo(){
 	echo -e "\e[1;33m ۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞\e[0m"
-	echo -e "\e[1;32m 	     Ayudante para vagos.\e[0m"
+	echo -e "\e[1;32m 	     Ayudante.\e[0m"
 	echo -e "\e[1;33m ۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞۞\e[0m"
 }
 
